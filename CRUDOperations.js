@@ -1,8 +1,6 @@
 import { User } from "../model/user.js";
 
 const userData = [];
-
-//CREATE USER FUNCTION
 function createUser(fullName, address, age, number, state) {
     const user = new User(fullName, address, age, number, state);
     userData.push(user);
